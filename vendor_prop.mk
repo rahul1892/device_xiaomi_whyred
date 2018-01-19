@@ -72,3 +72,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # MiuiCamera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.shutter_sound.blacklist=com.android.camera
+
+# Make data selection stick in dual SIM devices
+persist.radio.aosp_usr_pref_sel=true
