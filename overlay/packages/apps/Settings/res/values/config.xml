@@ -19,4 +19,7 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
+    <!-- Enable Manual Sub Provisioning -->
+    <bool name="config_enableManualSubProvisioning">true</bool>
+
 </resources>
